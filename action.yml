@@ -23,6 +23,9 @@ inputs:
   provisioning-profile-base64:
     description: "base 64 of your.mobileprovision"
     required: true
+  extension-provisioning-profile-base64:
+    description: "base 64 of your.mobileprovision"
+    required: true
   keychain-password:
     description: "random string in secrets"
     required: true
