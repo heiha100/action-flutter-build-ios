@@ -1,4 +1,4 @@
-name: flutter-build-ios
+name: flutter-build-ios-with-extension
 description: Setups the environment to build ios apps with flutter
 branding:
   icon: box
@@ -63,7 +63,7 @@ runs:
         IOS_BUILD_CERTIFICATE_BASE64: ${{ inputs.certificate-base64 }}
         IOS_BUILD_CERTIFICATE_PASSWORD: ${{ inputs.certificate-password }}
         IOS_MOBILE_PROVISIONING_PROFILE_BASE64: ${{ inputs.provisioning-profile-base64 }}
-        IOS_EXTENSION_MOBILE_PROVISIONING_PROFILE_BASE64: ${{ inputs.extension_provisioning-profile-base64 }}
+        IOS_EXTENSION_MOBILE_PROVISIONING_PROFILE_BASE64: ${{ inputs.extension-provisioning-profile-base64 }}
         IOS_GITHUB_KEYCHAIN_PASSWORD: ${{ inputs.keychain-password }}
         # Slight modification in the script from https://docs.github.com/en/actions/deployment/deploying-xcode-applications/installing-an-apple-certificate-on-macos-runners-for-xcode-development
         # that adds the uuid to the mobile provision so xcode can find it
